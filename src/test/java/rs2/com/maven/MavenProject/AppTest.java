@@ -3,7 +3,7 @@ package rs2.com.maven.MavenProject;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import com.rs2.common.Screenshot;;
+
 
 /**
  * Unit test for simple App.
@@ -55,6 +55,6 @@ public class AppTest
     
     public void testSummation_WithNegativeNumbers2()
     {
-    	assertEquals(-5, app.summation(-2,-3));
+    	assertEquals(-3, app.summation(-2,-1));
     }
 }
