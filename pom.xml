@@ -22,15 +22,7 @@
       <version>4.11</version>
       <scope>test</scope>
      </dependency>  
-        		 
-	 <dependency>
-  	   <groupId>rs2commons</groupId>
-       <artifactId>rs2commons</artifactId>
-       <scope>system</scope>
-       <version>1.1</version>
-       <systemPath>\\fileserver\Quality Assurance\Maven Remote Repository\rs2commons_v1.1.jar</systemPath>
-     </dependency> 	
-	 	             
+        		 	 	             
   </dependencies>
     		
 </project>
