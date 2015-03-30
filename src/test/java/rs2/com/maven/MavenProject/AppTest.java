@@ -55,6 +55,6 @@ public class AppTest
     
     public void testSummation_WithNegativeNumbers2()
     {
-    	assertEquals(-7, app.summation(-2,-1));
+    	assertEquals(-8, app.summation(-2,-1));
     }
 }
