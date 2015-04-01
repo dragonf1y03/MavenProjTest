@@ -1,7 +1,7 @@
 package rs2.com.maven.MavenProject;
 
 /**
- * Simple App for a Maven project.
+ * Simple App for a Maven project that does arithmetic.
  *
  */
 public class App 
