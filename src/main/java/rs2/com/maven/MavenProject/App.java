@@ -6,6 +6,8 @@ package rs2.com.maven.MavenProject;
  */
 public class App 
 {
+	public App()
+	{}
 	
 	/**
 	 * This method is used to sum 2 numbers.
