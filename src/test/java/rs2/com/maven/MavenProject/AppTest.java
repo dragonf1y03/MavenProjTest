@@ -12,6 +12,7 @@ public class AppTest
     extends TestCase
 {
 	App app = new App();
+	
     /**
      * Create the test case
      *
@@ -55,6 +56,6 @@ public class AppTest
     
     public void testSummation_WithNegativeNumbers2()
     {
-    	assertEquals(-4, app.summation(-2,-1));
+    	assertEquals(-3, app.summation(-2,-1));
     }
 }
