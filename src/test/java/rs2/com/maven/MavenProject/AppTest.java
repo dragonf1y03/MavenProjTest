@@ -39,33 +39,51 @@ public class AppTest
         assertTrue( true );
     }
     
+    /**
+     * Just a test.
+     */
     public void testSummation_WithPositiveNumbers()
     {
         assertEquals(2, app.summation(1,1));
     }
     
+    /**
+     * Just a test.
+     */
     public void testSummation_WithNegativeAndPositiveNumber()
     {
     	assertEquals(0, app.summation(-1,1));
     }
     
+    /**
+     * Just a test.
+     */
     public void testSummation_WithNegativeNumbers()
     {
     	assertEquals(-2, app.summation(-1,-1));
     }
     
+    /**
+     * Just a test.
+     */
     public void testSummation_WithNegativeNumbers2()
     {
-    	assertEquals(-9, app.summation(-2,-1));
+    	assertEquals(-3, app.summation(-2,-1));
     }
 	
+    /**
+     * Just a test.
+     */
 	public void testSummation_WithNegativeNumbers3()
     {
     	assertEquals(-10, app.summation(-5,-5));
     }
 	
+	/**
+     * Just a test.
+     */
 	public void testSummation_WithNegativeNumbers4()
     {
-    	assertEquals(-10, app.summation(-5,-4));
+    	assertEquals(-9, app.summation(-5,-4));
     }
 }
