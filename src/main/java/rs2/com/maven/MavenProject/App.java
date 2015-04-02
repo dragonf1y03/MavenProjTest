@@ -6,6 +6,7 @@ package rs2.com.maven.MavenProject;
  */
 public class App 
 {
+	
 	public App()
 	{}
 	
