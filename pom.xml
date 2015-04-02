@@ -73,8 +73,8 @@
               <version>2.5</version>
               <configuration>
                 <outputName>AppTestResultsinHTML</outputName>
-                  <!-- <includes>
-                    <include>SmokeTest.java</include>
+                  <includes>
+                    <include>AppTest.java</include>
                   </includes> -->                 
               </configuration>
             </plugin>
