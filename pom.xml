@@ -29,36 +29,41 @@
   </build>
 -->  
 
+  <build>
+  	<plugins>
+  	  <plugin>
+	    <groupId>org.eclipse.m2e</groupId>
+        <artifactId>lifecycle-mapping</artifactId>
+        <version>1.0.0</version>
+        <configuration>
+          <lifecycleMappingMetadata>
+          	<pluginExecutions>
+              <pluginExecution>
+                <pluginExecutionFilter>
+                  <groupId>org.jacoco</groupId>
+                  <artifactId>
+                    jacoco-maven-plugin
+                  </artifactId>
+                  <versionRange>
+	                	[0.6.2,)
+    	          </versionRange>
+        	      <goals>
+            	  	<goal>prepare-agent</goal>
+                  </goals>
+				</pluginExecutionFilter>
+                <action>
+                  <ignore />
+                </action>
+			  </pluginExecution>
+			</pluginExecutions>
+		  </lifecycleMappingMetadata>
+		</configuration>
+	  </plugin>
+  	</plugins>
+  </build>
+
   <reporting>
        <plugins>
-        	<plugin>
-				<groupId>org.eclipse.m2e</groupId>
-            	<artifactId>lifecycle-mapping</artifactId>
-            	<version>1.0.0</version>
-            	<configuration>
-            		<lifecycleMappingMetadata>
-                		<pluginExecutions>
-                    		<pluginExecution>
-                        		<pluginExecutionFilter>
-                            		<groupId>org.jacoco</groupId>
-                                	<artifactId>
-                                		jacoco-maven-plugin
-                                	</artifactId>
-                                	<versionRange>
-	                                	[0.6.2,)
-    	                            </versionRange>
-        	                        <goals>
-            	                    	<goal>prepare-agent</goal>
-                	                </goals>
-								</pluginExecutionFilter>
-                        	    <action>
-                            		<ignore />
-                            	</action>
-							</pluginExecution>
-						</pluginExecutions>
-					</lifecycleMappingMetadata>
-				</configuration>
-			</plugin>
      		<plugin>
         	  <groupId>org.apache.maven.plugins</groupId>
         	  <artifactId>maven-javadoc-plugin</artifactId>
@@ -72,10 +77,7 @@
               <artifactId>maven-surefire-report-plugin</artifactId>
               <version>2.5</version>
               <configuration>
-                <outputName>AppTestResultsinHTML</outputName>
-                  <includes>
-                    <include>AppTest.java</include>
-                  </includes> -->                 
+                <outputName>AppTestResultsinHTML</outputName>                             
               </configuration>
             </plugin>
        </plugins>
