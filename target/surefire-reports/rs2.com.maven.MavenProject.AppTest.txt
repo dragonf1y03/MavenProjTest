@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: rs2.com.maven.MavenProject.AppTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
