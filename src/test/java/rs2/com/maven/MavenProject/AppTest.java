@@ -42,7 +42,7 @@ public class AppTest
     /**
      * Just a test.
      */
-    public void always_testSummation_WithPositiveNumbers()
+    public void every_testSummation_WithPositiveNumbers()
     {
         assertEquals(2, app.summation(1,1));
     }
@@ -50,7 +50,7 @@ public class AppTest
     /**
      * Just a test.
      */
-    public void always_testSummation_WithNegativeAndPositiveNumber()
+    public void every_testSummation_WithNegativeAndPositiveNumber()
     {
     	assertEquals(0, app.summation(-1,1));
     }
@@ -58,7 +58,7 @@ public class AppTest
     /**
      * Just a test.
      */
-    public void always_testSummation_WithNegativeNumbers()
+    public void every_testSummation_WithNegativeNumbers()
     {
     	assertEquals(-2, app.summation(-1,-1));
     }
